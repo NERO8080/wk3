@@ -1,0 +1,21 @@
+
+
+
+table{
+   width:80%;
+   /* border-collapse: collapse; */
+}
+tr:nth-last-of-type(even){
+    background-color: brown;
+}
+tr:nth-of-type(odd){
+    background-color: darkmagenta;
+    color: blue;
+}
+td:nth-of-type(){
+    background-color: darksalmon; 
+    color: burlywood;  
+}
+td,th{
+    padding: .5em;
+}
